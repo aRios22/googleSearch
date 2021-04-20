@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+              <div class = "divMainAd">
+                      <h2>Advanced Search</h2>
+                      <h5>Find pages with...</h5>
+                      <img src="googleLogo.png" id="advImage">
+                      <form action = "http://www.google.com/search?q=">
+                        <div class = "divAd">
+                          <label for="allTWords">All these words:</label>
+                          <input type="text" name="as_q" class="advText">
+                          <label for="allTWords" class="instruction">Type the important words: tri-colour rat terrier</label>
+                        </div>
+                        <div class = "divAd">
+                          <label for="thsExactWord">This exact word or phrase:</label>
+                          <input type="text" name="as_epq" class="advText">
+                          <label for="allTWords" class="instruction">Put exact words in quotes: "rat terrier"</label>
+                        </div>
+                        <div class = "divAd">
+                          <label for="anyThsWords">Any of these words:</label>
+                          <input type="text" name="as_oq" class="advText">
+                          <label for="allTWords" class="instruction">Type OR between all the words you want: miniature OR standard</label>
+                        </div>
+                        <div class = "divAd">
+                          <label for="noneThsWords">None of these words:</label>
+                          <input type="text" name="as_eq" class="advText">
+                          <label for="allTWords" class="instruction">Put a minus sign before words that you don't want: -rodent, -"Russell"</label>
+                        </div>
+                        <input type="submit" class="btn btn-primary" value="Advanced Search" name="bSearchA">
+                      </form>
+              </div>
+              <div>
+                <a class="link" href="index.html">Return</a>
+              </div>
+    </body>
+</html>
